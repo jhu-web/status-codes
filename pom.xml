@@ -9,7 +9,7 @@
 
 	<name>Status Codes</name>
 	<description>This sample app shows how to generate response status codes.</description>
-	
+
 	<dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -20,6 +20,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>status-codes</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
